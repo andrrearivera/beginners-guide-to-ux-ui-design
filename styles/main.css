@@ -1,0 +1,68 @@
+body{
+/*  font-size: 1.25rem;*/
+}
+
+header{
+  height: 800px;
+  background-color: #ccc;
+}
+
+h1{
+  font-size: 4rem;
+}
+/*#UX {
+    background-color: #333;
+}
+
+#UI{
+  background-color: #ccc;
+}
+
+#important{
+  background-color: #666;
+}
+
+#good{
+  background-color: #ccc;
+}
+*/
+#process {
+  /*  background-color: #ccc;*/
+    height: 60rem;
+    overflow-y: scroll;
+
+
+}
+/* #career {
+    background-color: #ccc;
+}
+
+#conclusion {
+  background-color: #333;
+}*/
+footer {
+  background-color: #ccc;
+}
+
+.moreLink {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #2c1cf8;
+}
+
+a {
+  color: #2c1cf8;
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+img:hover{
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#img1{
+  box-shadow: none;
+}

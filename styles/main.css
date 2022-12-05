@@ -4,7 +4,7 @@ body{
 
 header{
   height: 800px;
-  background-color: #ccc;
+  /*background-color: #ccc;*/
 }
 
 h1{
@@ -27,9 +27,8 @@ h1{
 }
 */
 #process {
-  /*  background-color: #ccc;*/
-    height: 60rem;
-    overflow-y: scroll;
+    height: 500px;
+
 
 
 }
@@ -39,7 +38,7 @@ h1{
 
 #conclusion {
   background-color: #333;
-}*/
+} */
 footer {
   background-color: #ccc;
 }
@@ -66,3 +65,6 @@ img:hover{
 #img1{
   box-shadow: none;
 }
+
+
+/* create media query to get rid of navbar on small devices? */

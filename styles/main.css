@@ -1,44 +1,44 @@
 body{
-/*  font-size: 1.25rem;*/
+  background-color: #fff;
+  font-size: 1.25rem;
 }
 
 header{
   height: 800px;
-  /*background-color: #ccc;*/
+
 }
 
 h1{
   font-size: 4rem;
-}
-/*#UX {
-    background-color: #333;
+  font-weight: bold;
 }
 
-#UI{
-  background-color: #ccc;
+h2{
+  font-size: 2rem;
+  font-weight: bold;
+
 }
 
-#important{
-  background-color: #666;
+h3{
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
-#good{
-  background-color: #ccc;
+h1, h2, h3 {
+  color: #4E39E3
 }
-*/
+
+
+/*changing the dt tag color isnt working for some reason*/
+
+dt {
+  color: #4E3933;
+}
+
 #process {
     height: 500px;
-
-
-
-}
-/* #career {
-    background-color: #ccc;
 }
 
-#conclusion {
-  background-color: #333;
-} */
 footer {
   background-color: #ccc;
 }
@@ -46,11 +46,11 @@ footer {
 .moreLink {
   font-size: 1rem;
   font-weight: bold;
-  color: #2c1cf8;
+  color: #4E39E3
 }
 
 a {
-  color: #2c1cf8;
+  color: #4E39E3
 }
 
 .card:hover{

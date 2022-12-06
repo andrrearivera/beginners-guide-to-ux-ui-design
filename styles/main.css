@@ -10,13 +10,12 @@ header{
 
 h1{
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: bolder;
 }
 
 h2{
   font-size: 2rem;
-  font-weight: bold;
-
+  font-weight: bolder;
 }
 
 h3{
@@ -25,14 +24,14 @@ h3{
 }
 
 h1, h2, h3 {
-  color: #4E39E3
+  color: #0d6efd;
 }
 
 
 /*changing the dt tag color isnt working for some reason*/
 
 dt {
-  color: #4E3933;
+  color: #0d6efd;
 }
 
 #process {
@@ -46,11 +45,11 @@ footer {
 .moreLink {
   font-size: 1rem;
   font-weight: bold;
-  color: #4E39E3
+  color: #0d6efd;
 }
 
 a {
-  color: #4E39E3
+  color: #0d6efd;
 }
 
 .card:hover{
@@ -62,9 +61,24 @@ img:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
+.imgShadow {
+  box-shadow: none;
+}
+
 #img1{
   box-shadow: none;
 }
 
+
+.mainBullet {
+  color: #0d6efd;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.bullet {
+  color: #000;
+  list-style: none;
+}
 
 /* create media query to get rid of navbar on small devices? */

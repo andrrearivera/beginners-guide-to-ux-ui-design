@@ -4,13 +4,8 @@ body{
   overflow-x: hidden;
 }
 
-nav {
-  font-size:
-}
-
 header{
   height: 800px;
-
 }
 
 h1{
@@ -32,8 +27,6 @@ h1, h2, h3 {
   color: #0d6efd;
 }
 
-/*changing the dt tag color isnt working for some reason*/
-
 #process {
     height: 500px;
 }
@@ -50,6 +43,7 @@ footer {
 
 a {
   color: #0d6efd;
+  cursor: default;
 }
 
 .card:hover{
@@ -57,26 +51,24 @@ a {
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
-img:hover{
+.shadowImg:hover{
   box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .mainBullet {
   color: #0d6efd;
-  font-weight: bold;
   font-size: 1.5rem;
 }
 
-/*.bullet {
+.bullet {
   color: #000;
   list-style: none;
-}*/
+}
 
-/*
-cursor:active {
-  color: #0d6efd;
-}*/
+.moreLink:hover {
+    cursor: pointer;
+}
 
-
-/*change cursor hover to pointer */
-/* create media query to get rid of navbar on small devices? */
+a:hover {
+    cursor: pointer;
+}

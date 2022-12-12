@@ -7,7 +7,9 @@
 	<title>A Beginner's Guide to UX/UI Design</title>
 
 <!-- CDN and leaflet-->
-<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> -->
+
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <!--fonts-->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -24,15 +26,17 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
 <!-- start of the body -->
 <body>
-
-<!-- start nav bar -->
-
 <div class="container">
 
+<!-- start nav bar -->
 <div class="row fixed-top">
   <div class="col-md-12">
     <nav id="navbar-example2" class="navbar bg-light px-3 mb-3">
-    <a class="navbar-brand" href="#">A Beginner's Guide to UX/UI Design</a>
+    <a class="navbar-brand text-primary" href="#header">Home </a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"> </span>
+		</button>
+		<div class="collapse navbar-collapse" id="navbarTogglerDemo02">
     <ul class="nav nav-pills">
         <li class="nav-item">
           <a class="nav-link" href="#UX">UX</a>
@@ -59,40 +63,40 @@ body {font-family:'Montserrat', arial, sans-serif;}
           <a class="nav-link" href="#references"> References </a>
         </li>
       </ul>
+		</div>
     </nav>
-    </div>
+	</div>
 </div>
 
   <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
-
 <!-- end of nav bar -->
 
 
-
+<!-- start of header -->
 <header class="row" id="header">
 <section class="col-md-12 text-center my-auto">
-  <h1> A Beginner's Guide to UX/UI Design  </h1>
-  <p class="lead">write something here i guess</p>
+  <h1 class="display-2">A Beginner's Guide to UX/UI Design </h1>
 </section>
 </header>
+<!-- end of header -->
 
 
-<section class="sticky-md-bottom" id="bodyContent"> <!-- FIX THIS -->
 <!-- UX-->
 <div class="row py-5" id="UX">
 <section class="col-md-8">
   <h2> What is UX Design? </h2>
   <p>User experience design, commonly known as UX design, is the process of creating a meaningful and relevant product centered around the needs and desires of a target audience. In other words, UX design is designing how a user <em>interacts</em> with a product.</p>
   <div class="bottom">
-    <p> The role of a UX designer involves research. They must understand how their target audience thinks and feels, but also how certain features can elicit specific reactions from them. UX design isn’t just some one-time solution; it is an on-going process that involves continuously gathering data and user-feedback to ensure that the product continues to satisfy expectations as a user’s needs evolve. </p>
+    <p> The role of a UX designer involves research. They must understand how their target audience thinks and feels and how certain features can elicit specific reactions from them. UX design isn't just a one-time solution; it is an ongoing process involving continuously gathering data and user feedback to ensure that the product continues to satisfy expectations as users' needs evolve. </p>
     <p> UX designers must advocate for their users’ needs throughout all stages of the design process. They must understand their audience well to develop the best solutions to address their habits, needs, and concerns. </p>
     </div>
     <span class="moreLink">Read more</span>
 </section>
 <div class="col-md-4">
-<img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded-circle" alt="300x300 UX Design Test Drawing">
+<img src="images/ux.png" class="img-fluid mx-auto d-block" alt="UX Design Drawing">
 </div>
-</div> <!-- end of UX -->
+</div>
+<!-- end of UX -->
 
 
 
@@ -102,19 +106,19 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
 <div class="row py-5" id="UI">
   <div class="col-md-4">
-  <img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded-circle" alt="300x300">
+  <img src="images/ui.png" class="img-fluid mx-auto d-block" alt="UI design graphic">
   </div>
 <section class="col-md-8">
   <h2> What is UI Design? </h2>
-  <p>User interface design, also known as UI design, focuses on the aesthetic and functional experience of consumers. In other words, they create the look and feel of an interface. It is the job of the UI designer to bring the UX designer’s vision to life to ensure the creation of a product that is both easy and pleasing to use.</p>
+  <p>User interface design, also known as UI design, focuses on consumers' aesthetic and functional experience. In other words, they create the look and feel of an interface. It is the job of the UI designer to bring the UX designer's vision to life to ensure the creation of a product that is both easy and pleasing to use.</p>
 
 
 <div class="bottom">
-  <p>UI designers oversee the colors, text, font, spacing, images, buttons, and all interactive elements of a site. Therefore, UI designers must have a strong understanding of design principles to represent concepts and ideas in a way that is easy for the target audience to understand. They must work with the framework of the site to develop a design that is functional, attractive, and aligned with all brand elements on the page.</p>
+  <p>UI designers oversee the colors, text, font, spacing, images, buttons, and all interactive elements of a site. Therefore, UI designers must have a strong understanding of design principles to represent concepts and ideas in a way that is easy for the target audience to understand. They must work with the site's framework to develop a design that is functional, attractive, and aligned with all brand elements on the page.</p>
 </div>
 <span class="moreLink">Read more</span>
 </section>
-</div> <!-- end of UI-->
+
 
 
 
@@ -123,36 +127,35 @@ body {font-family:'Montserrat', arial, sans-serif;}
 <div class="row py-5" id="important">
   <section class="col-md-8">
   <h2> Why is UX/UI Design Important? </h2>
-  <p>By understanding what drives human behavior, UX and UI designers can design websites and applications that evoke positive experiences and responses from users. Studies have shown that good UX and UI design not only improve a consumer’s overall experience, but also increases user sales, their probability to return (and become loyal consumers) and brand equity. In fact, <a href="https://s3.amazonaws.com/coach-courses-us/public/theuxschool/uploads/The_Trillion_Dollar_UX_Problem.pdf">studies show</a> that for every $1 invested into UX design, business on average receive $100 in return. </p>
-  <p>Businesses that keep consumers in the center of the design process experience the most satisfaction and returns than those who don’t.</p>
+  <p>By understanding what drives human behavior, UX and UI designers can design websites and applications that evoke positive experiences and responses from users. Research shows that good UX and UI design improves a consumer's experience and increases sales, user loyalty, and brand equity. <a href="https://s3.amazonaws.com/coach-courses-us/public/theuxschool/uploads/The_Trillion_Dollar_UX_Problem.pdf">The Trillion Dollar UX Problem</a> states that for every  $1 invested into UX design, businesses average $100 in return. In other words, UX and UI design can help increase return on investments (ROI). </p>
 </section>
 <div class="col-md-4">
-<img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded-circle" alt="300x300">
+<img src="images/important.png" class="img-fluid mx-auto d-block" alt="important graphic">
 </div>
 </div> <!-- end of importance -->
 
-
+</div> <!-- end of image shadow -->
 
 
 <!-- good design -->
 
 <!-- change to fix "read more" lengths to progress in size order -->
 
-<div class="row py-5" id="good">
+<div class="row pb-5" id="good">
 
 <section class="col-md-12">
   <h2> What makes good UX/UI Design? </h2>
-  <p class="pb-2">While UX and UI design are different, together the ensure the creation of a product that enables users to access information or complete tasks in an efficient and pleasing way. You cannot have good UX without good UI. </p>
+  <p class="pb-2">While UX and UI design are different, they ensure the creation of a product that enables users to access information or complete tasks in an efficient and pleasing way. You cannot have good UX without good UI.</p>
 
   <div class="row row-cols-1 row-cols-md-4 g-4">
   <div class="col">
     <div class="card">
-      <img src="images/fillerimagesmall.png" class="card-img-top" alt="...">
+      <img src="images/structure.png" class="shadowImg card-img-top p-3" alt="structure graphic">
       <div class="card-body">
         <h3 class="card-title">Good Structure</h3>
-        <p class="card-text">A well-structured site ensures that users can find everything they need and that the overall experiences feel natural. It will also be more accessible for individuals with disabilities.</p>
+        <p class="card-text">A well-structured site ensures that users can find everything they need and that the overall experience feels natural. It also makes the site more accessible for individuals with disabilities. </p>
           <div class="bottom">
-           <p>When first structuring you site, it is important to keep your business or brand’s future goals in mind. The first structure of your site should be able to easily adapt to expand to meet your goals.</p>
+           <p>When first structuring your site, keeping your business or brand’s future goals in mind is crucial. The structure of your site should be able to adapt and expand to meet your goals easily.</p>
            </div>
            <span class="moreLink"> Read more </span>
       </div>
@@ -161,12 +164,12 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
   <div class="col">
     <div class="card">
-      <img src="images/fillerimagesmall.png" class="card-img-top" alt="...">
+      <img src="images/communicative.png" class="shadowImg card-img-top p-3" alt="communicative graphic">
       <div class="card-body">
         <h3 class="card-title">Communicative</h3>
-        <p class="card-text">Users should feel represented when they load your site. Let them know that you heard their thoughts, ideas, and concerns and took them into consideration when designing the product.</p>
+        <p class="card-text">Users should see your product and feel represented when they use it. Show them that you heard their thoughts, ideas, and concerns and considered them when designing the product.</p>
         <div class="bottom">
-          <p> Continuously gather user feedback to ensure that your site remains up-to-date and appealing to your target audience. Depending on the purpose of your site, perhaps a comment section, or contact page could help users engage with content more and feel heard.</p>
+          <p> Continuously gather user feedback to ensure your site remains up-to-date and appealing to your target audience. Depending on your site's purpose, a comment section or contact page could help users engage with content more and feel heard.</p>
         </div>
         <span class="moreLink"> Read more </span>
       </div>
@@ -175,12 +178,12 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
   <div class="col">
     <div class="card">
-      <img src="images/fillerimagesmall.png" class="card-img-top" alt="...">
+      <img src="images/concise.png" class="shadowImg card-img-top p-3" alt="concise graphic">
       <div class="card-body">
         <h3 class="card-title">Concise</h3>
-        <p class="card-text">Users should be able to understand what your page is about without any difficulty. From navigating through content, to reading copy, the user experience should be intuitive.</p>
+        <p class="card-text">Users should be able to understand what your page is about without any difficulty. From navigating through content to reading copy, the user experience should be intuitive.</p>
         <div class="bottom">
-        <p> UX and UI design does not just take into consideration the artistic design and layout of a site, but the words as well. Buttons and navigation links should tell users exactly what they do in as little words as possible. Everything on the site should be useable and useful, there shouldn’t be any excess content that isn’t necessary.</p>
+        <p>UX and UI design does not just consider the artistic design and layout of a site but the words as well. Buttons and navigation links should tell users exactly what they do in as few words as possible. Everything should be clear and practical; excess content may confuse users and take away from their overall experience.</p>
         </div>
         <span class="moreLink"> Read more </span>
       </div>
@@ -189,12 +192,12 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
 	<div class="col">
     <div class="card">
-      <img src="images/fillerimagesmall.png" class="card-img-top" alt="...">
+      <img src="images/aesthetic.png" class="shadowImg card-img-top p-3" alt="aesthetic graphic">
       <div class="card-body">
         <h3 class="card-title">Visually Appealing</h3>
-        <p class="card-text"> When your site first loads onto a user’s browser, they should be enticed to stay on the page and explore its contents. To ensure this happens, make sure the website’s aesthetics appeal to the them.</p>
+        <p class="card-text">When your site loads onto a user’s browser, it should entice them to stay on the page and explore its contents. To ensure this happens, make the website’s aesthetics appeal to the target audience.</p>
           <div class="bottom">
-        <p> It is important to understand what appeals to your target audience design wise – listen to their concerns and ideas gathered from research to ensure the product is something they desire. The color palette should resonate well with them, as well as the images used. Typography should be legible and not be formatted in large blocks of text.</p>
+        <p> It is essential to understand what visually appeals to your target audience. After all, people of different ages and cultures respond to colors and imagery differently. Remember to keep the color palette, images, and typography in mind when designing. Use a legible typeface and avoid formatting text in large blocks.</p>
           </div>
           <span class="moreLink"> Read more </span>
       </div>
@@ -212,7 +215,7 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
 <!-- design process -->
 
-<section class="border border-primary border-3">
+<section class="border border-primary border-3 mt-5">
   <div class="row pt-5 pb-2">
   <div class="col-md-8 mx-auto">
   <h2 class="text-center"> Steps of the Design Process </h2>
@@ -221,59 +224,37 @@ body {font-family:'Montserrat', arial, sans-serif;}
     <div class="row overflow-scroll" id="process">
 
 
-    <div class="col-8 mx-auto" id="processScroll">
+    <div class="col-10 mx-auto" id="processScroll">
       <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0" data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
 
-        <!-- make this an ordered list ?? -->
-        <!-- apparently cant have ul as child element of ol??  watch video-->
-				<!-- nest ol list instead?? -->
+
         <ol>
           <li class="pt-3 mainBullet" id="1"> Research
             <ul class="bullet">
-            <li> The first step of the design process is gathering data, which can be either qualitative, quantitative, or both. Research allows designers to understand their target audience more and determining the issues they have and the solutions they are seeking</li>
-            <li> <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle mb-5 mt-2" alt="300x300"></a> </li>
+            <li>The first step of the design process is gathering data; this involves directly speaking to the target audience to gather information from them. The data can be either qualitative, quantitative, or both. Research allows designers to understand their target audience more and determine the issues they have and the solutions they are seeking. It also enables researchers to see what their competitors are doing to determine what needs to be done to differentiate themselves more from their competition.</li>
+            <!--<li> <a href="#reserach"><img src="images/research.png" class="img-fluid mx-auto d-block mb-5 mt-2 p-5" alt="research graphic"></a> </li>-->
             </ul>
 						</li>
           <li class="pt-3 mainBullet" id="2"> Design
             <ul class="bullet">
-              <li>In this stage, designers begin to brainstorm potential solutions for users.  This may involve sketching ideas, toying with colors, changing the interface and structure of the site.</li>
-              <li> <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle mb-5 mt-2" alt="300x300"></a> </li>
+              <li>After analyzing the research gathered in the previous step, this stage is where designers begin to brainstorm potential solutions for users. This may involve sketching ideas, toying with colors, and changing the interface and structure of the site.</li>
+							<li>The design stage is where the UI designer comes into play. They help determine color palettes and where buttons, images, and content should be placed. They help UX designers with creating wireframes to help envision what the final product may look like. This step results in multiple sketches and wireframes. Further feedback from key decision-makers and more user testing is needed to determine which design to proceed with, which is done in the next stages.</li>
+              <!--<li> <a href="#reserach"><img src="images/design.png" class="img-fluid mx-auto d-block mb-5 mt-2 p-5" alt="300x300"></a> </li>-->
             </ul>
 						 </li>
           <li class="pt-3 mainBullet" id="3"> Prototype
             <ul class="bullet">
-              <li> This is where you create a more realistic mock-up of the final product that enables you to simulate how consumers will feel. The purpose of this stage is to test what you have already to resolve and fine-tune any issues before more time and money are spent into developing it.</li>
-              <li> <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle mb-5 mt-2" alt="300x300"></a> </li>
+              <li>In the prototype stage, you create a more realistic mock-up of the final product. The purpose is to create a mock-up that allows individuals to interact with the final product before it is fully developed. It is meant to be used in the validate stage for user testing.</li>
+              <!--<li> <a href="#reserach"><img src="images/research.png" class="img-fluid mx-auto d-block mb-5 mt-2 p-5" alt="300x300"></a> </li>-->
             </ul>
 						 </li>
           <li class="pt-3 mainBullet" id="4"> Validate
             <ul class="bullet">
-              <li>This final stage is where you would use usability testing to ensure that the product is responding in a manner you want it to and solving the previous issues consumers had. This final stage</li>
-              <li> <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle mb-5 mt-2" alt="300x300"></a> </li>
+              <li>The final stage of the design process involves usability testing to ensure the product is working efficiently and resolves any issues it intends to. After running the final tests on the target demographic, the product will either head back to the design stage to resolve any problems or continue into development. The purpose of this stage is to save time and money to ensure the final product is something consumers want and need.</li>
+              <!--<li> <a href="#reserach"><img src="images/validate.png" class="img-fluid mx-auto d-block mb-5 mt-2 p-5" alt="300x300"></a> </li>-->
             </ul>
 					</li>
         </ol>
-
-
-
-
-
-<!--
-        <h3 class="pt-3" id="1">Research</h3>
-        <p>The first step of the design process is gathering data, which can be either qualitative, quantitative, or both. Research allows designers to understand their target audience more and determining the issues they have and the solutions they are seeking.</p>
-
-        <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle" alt="300x300"></a>
-        <h3 class="pt-3" id="2">Design</h3>
-        <p>In this stage, designers begin to brainstorm potential solutions for users.  This may involve sketching ideas, toying with colors, changing the interface and structure of the site.</p>
-
-        <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle" alt="300x300"></a>
-        <h3 class="pt-3" id="3">Prototype</h3>
-        <p>This is where you create a more realistic mock-up of the final product that enables you to simulate how consumers will feel. The purpose of this stage is to test what you have already to resolve and fine-tune any issues before more time and money are spent into developing it.</p>
-
-        <a href="#reserach"><img src="images/fillerimagesmaller.png" class="img-fluid mx-auto d-block rounded-circle" alt="300x300"></a>
-        <h3 class="pt-3" id="4">Validate</h3>
-        <p>This final stage is where you would use usability testing to ensure that the product is responding in a manner you want it to and solving the previous issues consumers had. This final stage</p>
-      -->
       </div>
     </div>
   </div>
@@ -286,34 +267,33 @@ body {font-family:'Montserrat', arial, sans-serif;}
 
 
 <!-- career -->
-<div class="row py-5" id="career">
+<div class="row py-5 mt-5" id="career">
 <section class="col-md-12">
   <h2>Careers </h2>
-  <p> UX and UI designs are popular careers and quickly growing in demand. Below is a list of just a few examples of jobs individuals with UX and UI skills can get </p>
+  <p> UX and UI design are popular careers that are quickly growing in demand. Below are a few examples of jobs individuals with UX and UI skills can get.</p>
 </section>
 <div class="row mx-auto">
   <div class="col-md-3">
-      <img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded mb-3" alt="UX researcher job graphic">
+      <img src="images/uxresearcher.png" class="shadowImg img-fluid mx-auto d-block rounded mb-3 p-3" alt="UX researcher job graphic">
   <h3> UX Researcher </h3>
-    <p>Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+    <p> A UX Researcher is analytical and data-driven. They are in charge of conducting experiments and gathering all user data needed for a particular project. They help UX and UI designers understand their target audience by providing them with user insights and other valuable information.</p>
   </div>
 
 <div class="col-md-3">
-    <img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded mb-3" alt="Information architect job graphic">
+    <img src="images/infoarch.png" class=" shadowImg img-fluid mx-auto d-block rounded mb-3 p-3" alt="Information architect job graphic">
 <h3> Information Architect </h3>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+  <p>Information architects deal with the organization of a product and ensure that users can navigate from point A to point B in the most logical manner. They work closely with UX researchers and designers to understand users' needs and design the site's hierarchy to match it.</p>
 </div>
-
 <div class="col-md-3">
-    <img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded mb-3" alt="UX/UI designer job graphic">
+    <img src="images/uxui.png" class="shadowImg img-fluid mx-auto d-block rounded mb-3 p-3" alt="UX/UI designer job graphic">
 <h3> UX/UI Designer </h3>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+  <p>While UX and UI design are different yet related roles, they are often combined in job listings and used interchangeably. Smaller companies typically do this and ask individuals to fulfill both roles. For jobs like this, read what responsibilities you will be asked to satisfy to understand if it is something you want to do.</p>
 </div>
 
 <div class="col-md-3">
-    <img src="images/fillerimagesmall.png" class="img-fluid mx-auto d-block rounded mb-3" alt="Front-end developer job graphic">
+    <img src="images/frontend.png" class="shadowImg img-fluid mx-auto d-block rounded mb-3 p-3" alt="Front-end developer job graphic">
 <h3> Front-end Developer </h3>
-  <p> Lorem ipsum dolor sit amet, consectetur adipisci elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua.</p>
+  <p> Front-end developers are responsible for how a website or application looks. They are responsible for coding the site using HTML, CSS, and JavaScript; however, they must have a good understanding of UX and UI design principles to ensure effective design.</p>
 </div>
 </div>
 </div> <!-- end of career -->
@@ -327,34 +307,32 @@ body {font-family:'Montserrat', arial, sans-serif;}
 <div class="row py-5 my-2" id="conclusion">
   <section class="col-md-12">
   <h2> Conclusion </h2>
-  <p> While UX and UI design are used interchangeagbly, they encompass different roles in the design process. While it is vital to understand their differences and how the roles differ between designers, it is just as important to understand that you cannot have one without the other. They must work together to ensure users have favorable experiences using a site or prouduct</p>
-  <p> I hope this helped i guess. Wrap up here </p>
-  <p> view my <a href="https://github.com/andrrearivera/beginners-guide-to-ux-ui-design">my GitHub repo</a> here</p>
+  <p>UX and UI design are used interchangeably, yet they encompass different roles in the design process. While it is vital to understand their differences, it is just as important to realize that you cannot have one without the other. Good UX depends on good UI and vice versa. They must work together to ensure users have favorable experiences using a product.</p>
+  <p class="text-muted pt-5"> View my <a href="https://github.com/andrrearivera/beginners-guide-to-ux-ui-design">my GitHub repo</a> here</p>
 </section>
 
 </div> <!-- end of conclusion -->
 
-</section>
 
 
 
 <!-- footer -->
-<footer class="row mt-5" id="references">
+<footer class="row mt-5 bg-light text-muted" id="references">
   <div class="col-md-12 my-auto py-3">
-  <p class="lead"> References</p>
+  <p class=" mt-2 px-2 h4"> References</p>
 
-  <ul>
-    <!-- Fix References. Makes sure titles line up with links -->
-    <li><a href="https://www.webdesignerdepot.com/2022/02/whats-the-difference-between-good-ui-and-good-ux/"> webdesignerdepot</a></li>
-    <li> <a href="https://www.webdesignerdepot.com/2022/02/whats-the-difference-between-good-ui-and-good-ux/">Webdesigner Depot: Whats the Difference Between Good UI and Good UX</a></li>
-    <li><a href="https://www.youtube.com/watch?v=EH68AQ5NykU&list=PL4GEkVtNYGlI77T5m0GqipF6EA9XL5QvS">Webinar: How to Become a UI Designer</a></li>
-    <li><a href="https://xd.adobe.com/ideas/principles/web-design/what-makes-good-ux/"> Adobe: What Makes Good UX </a></li>
-    <li><a href="https://xd.adobe.com/ideas/career-tips/ux-design-jobs-you-could-be-doing-in-2021/"> Adobe: UX Design Jobs You Could Be Doing in 2021 </a></li>
-    <li><a href="https://www.interaction-design.org/literature/topics/ux-design"> Interaction Design: UX Design </a></li>
-    <li><a href="https://s3.amazonaws.com/coach-courses-us/public/theuxschool/uploads/The_Trillion_Dollar_UX_Problem.pdf"> The Trillion Dollar UX Problem</a></li>
-    <li><a href="https://careerfoundry.com/en/blog/ui-design/what-does-a-ui-designer-actually-do/"> Careerfoundry: What Does a UI Designer Actually Do?</a></li>
-    <li><a href="https://www.interaction-design.org/literature/topics/ui-design">Interaction Design: UI Design</a></li>
-    <li><a href="https://bootcamp.berkeley.edu/blog/the-ux-ui-industry-a-beginners-guide/"> The UX/UI Industry Beginner's Guide by Berkeley Bootcamp </a></li>
+  <ul class=" text-muted">
+		  <li> <a href="https://www.youtube.com/watch?v=EH68AQ5NykU&list=PL4GEkVtNYGlI77T5m0GqipF6EA9XL5QvS">Webinar: How To Become A UI Designer by Careerfoundry</a></li>
+			<li> <a href="https://www.webdesignerdepot.com/2022/02/whats-the-difference-between-good-ui-and-good-ux/">Webdesigner Depot: What's the Difference between Good UI and Good UX?</a></li>
+			<li> <a href="https://www.uxdesigninstitute.com/blog/ux-design-process/">UX Design Institute: What is the UX Design Process? A Step-by-Step Guide</a></li>
+			<li> <a href="https://xd.adobe.com/ideas/principles/web-design/what-makes-good-ux/">Adobe: What Makes a Good User Experience?</a></li>
+			<li> <a href="https://xd.adobe.com/ideas/career-tips/ux-design-jobs-you-could-be-doing-in-2021/">Adobe: 5 UX Design Careers to Pursue in 2021</a></li>
+			<li> <a href="https://www.interaction-design.org/literature/topics/ux-design">Interaction Design Foundation: User Experience (UX) Design</a></li>
+			<li> <a href="https://s3.amazonaws.com/coach-courses-us/public/theuxschool/uploads/The_Trillion_Dollar_UX_Problem.pdf">The Trillion Dollar UX Problem: A Comprehensive Guide to the ROI of UX</a></li>
+			<li> <a href="https://careerfoundry.com/en/blog/ui-design/what-does-a-ui-designer-actually-do/">What does a UI Designer Actually Do? 2023 Guide</a></li>
+			<li> <a href="https://www.interaction-design.org/literature/topics/ui-design">Interaction Design Foundation: User Interface (UI) Design</a></li>
+			<li> <a href="https://bootcamp.berkeley.edu/blog/the-ux-ui-industry-a-beginners-guide/">The UX/UI Industry: A Beginner’s Guide</a></li>
+			<li>All images created by Andrea Rivera</li>
   </ul>
 
   </div>
